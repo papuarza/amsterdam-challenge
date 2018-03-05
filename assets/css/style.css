@@ -87,3 +87,11 @@
   height: 100%;
 }
 
+
+.section.program .info-title {
+  margin-top: 10px;
+}
+
+.section.program .logo-language img {
+  height: 70px;
+}
