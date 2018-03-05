@@ -63,6 +63,11 @@
   font-size: 2rem;
 }
 
+.video-berlin-coding-challenge {
+  margin: 30px 0;
+  max-width: 100%;
+}
+
 
 .fullscreen-bg {
   position: fixed;
