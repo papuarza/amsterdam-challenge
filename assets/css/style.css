@@ -14,11 +14,12 @@
 
 
 .page-header {
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
-.page-header img {
+.page-header img.logo-header {
   width: 300px;
+  max-width: 60%;
   margin-bottom: 20px;
 }
 
@@ -63,6 +64,10 @@
   font-size: 2rem;
 }
 
+/* .section.join .description {
+  line-height: 3rem !important;
+} */
+
 .video-berlin-coding-challenge {
   margin: 30px 0;
   max-width: 100%;
@@ -94,4 +99,32 @@
 
 .section.program .logo-language img {
   height: 70px;
+}
+
+.code {
+  background-color: #eee;
+  text-align: left;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+
+
+@media (max-width: 1000px) {
+  
+  .page-header {
+    padding-bottom: 0px;
+  }
+  .page-header img.logo-header {
+    width: 200px;
+  }
+  .page-header .title {
+    font-size: 1.8rem;
+  }
+
+  .page-header .values {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
 }
