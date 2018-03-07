@@ -3,6 +3,10 @@
   background-color: #000 !important;
 }
 
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+
 .navbar-brand {
   padding: 5px!important;
 }
@@ -64,6 +68,16 @@
   font-size: 2rem;
 }
 
+.section.instructors img {
+  max-height: 250px;
+}
+
+.section.readings img {
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+
 /* .section.join .description {
   line-height: 3rem !important;
 } */
@@ -101,13 +115,35 @@
   height: 70px;
 }
 
+.section.supports .title {
+  margin-bottom: 20px;
+}
+
+.section.supports img {
+  max-height: 60px;
+  min-height: 20px;
+  filter: opacity(70%) grayscale(100%);
+  transition:.5s;
+  margin: 20px 0;
+}
+
+.section.supports img:hover {
+  filter: opacity(100%) grayscale(0%);
+  transition:.5s;
+}
+
 .code {
   background-color: #eee;
   text-align: left;
-  padding: 10px;
+  padding: 10px 15px;
   font-size: 1rem;
+  display: flex;
 }
 
+
+.info {
+  padding: 40px 0 30px;
+}
 
 
 @media (max-width: 1000px) {
